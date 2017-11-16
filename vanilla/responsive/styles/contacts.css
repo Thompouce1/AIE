@@ -1,0 +1,36 @@
+/*MOBILE DIV*/
+.mainPageM{display: none;}
+
+#little{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+div#contenu {
+    border-radius: 5px;
+    padding: 15px;
+	margin: 20px 20px 20px 20px;
+	font-size: 17px;
+	font-family: "Times New Roman", Times, serif;
+}
+	
+/*TABLETTE*/
+@media screen and (max-width: 768px) {
+
+}
+
+/* SmartPhone */
+@media screen and (max-width: 480px) {
+	.mainPagePC{
+		display: none;
+	}
+	
+	.mainPageM{
+		display: block;
+	}
+	
+	#little{
+		height: 100%;
+	}
+} 

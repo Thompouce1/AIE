@@ -1,0 +1,86 @@
+#video{
+    width:100%;
+}
+div.sub, iframe {
+	max-width:100%;
+	max-height:100%;
+	width:640px;
+	height:360px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.mainPagePC
+{
+	padding: 25px 25px 25px 25px ;
+}
+
+.mainPageM{
+	display: none;
+}
+
+div.mainPagePC h2
+{
+	padding-left: 25px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	color: #38EFD6 ;
+	border-bottom: 1px solid #38EFD6 ;
+}
+
+div.mainPagePC p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div.mainPagePC a
+{
+	color: #9BF4E9 ;
+}
+
+div.mainPagePC a:hover
+{
+	color: #38EFD6 ;
+}
+
+@media screen and (max-width: 480px) {
+  .mainPagePC{
+	  display: none;
+  }
+  .mainPageM{
+	  display: block;
+  }
+  
+  .button {
+		background-color: #333;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		cursor: pointer;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		margin-top: 5px;
+  }
+
+  #butt{
+	color:white;
+  }
+  
+  img.mbutton{
+	   display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+	   max-width: 100%;
+	   padding-top: 25%;
+	   padding-bottom: 25%;
+	   width: 50%; 
+  }
+} 

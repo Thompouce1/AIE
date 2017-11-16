@@ -1,0 +1,25 @@
+#touteslistes{
+	width: 50%; 
+	height: 50%;
+	position : absolute;
+	left: 0px;
+}
+
+#touteslistes2{
+	width: 50%; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contenu{
+	display: block;
+}
+
+#descriptliste{
+	width: 50%; 
+	height: 50%;
+	position : absolute;
+	right: 0px;
+}
